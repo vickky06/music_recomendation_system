@@ -1,15 +1,14 @@
 {
   "name": "music-recommendation-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An online music recommendation application",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.2"
+    "typescript": "^4.4.3"
   }
 }
