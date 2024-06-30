@@ -48,30 +48,6 @@ API Usage Example:
 
 The application can be interacted with programmatically through the provided controllers and services. See the src/controllers/MusicRecommendationController.ts file for usage examples.
 
-Folder Structure
-graphql
-Copy code
-music-recommendation-app/
-│
-├── src/
-│   ├── entities/
-│   │   ├── Song.ts       # Song entity definition
-│   │   └── User.ts       # User entity definition
-│   ├── services/
-│   │   ├── SongService.ts        # Service for managing songs
-│   │   └── UserService.ts        # Service for managing users
-│   ├── controllers/
-│   │   └── MusicRecommendationController.ts    # Controller for application logic
-│   ├── recommendation/
-│   │   └── RecommendationEngine.ts     # Recommendation engine logic
-│   ├── app.ts          # Main application entry point
-│   └── index.ts        # Entry point for TypeScript compilation
-│
-├── dist/               # Compiled JavaScript files (ignored in .gitignore)
-├── node_modules/       # Installed dependencies (ignored in .gitignore)
-├── .gitignore          # Git ignore file
-├── package.json        # Project metadata and dependencies
-├── tsconfig.json       # TypeScript configuration
-└── README.md           # Project documentation (you are here)
+
 Dependencies
 TypeScript: ^4.4.3
